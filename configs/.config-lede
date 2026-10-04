@@ -1,1 +1,106 @@
-
+CONFIG_TARGET_rockchip=y
+CONFIG_TARGET_rockchip_armv8=y
+CONFIG_TARGET_rockchip_armv8_DEVICE_friendlyarm_nanopi-r28s=y
+# CONFIG_PACKAGE_3proxy is not set
+# CONFIG_PACKAGE_TURBOACC_INCLUDE_BBR_CCA is not set
+# CONFIG_PACKAGE_TURBOACC_INCLUDE_FLOW_OFFLOADING is not set
+CONFIG_PACKAGE_TURBOACC_INCLUDE_SHORTCUT_FE_CM=y
+# CONFIG_PACKAGE_automount is not set
+CONFIG_PACKAGE_banip=y
+# CONFIG_PACKAGE_chinadns-ng is not set
+CONFIG_PACKAGE_coreutils=y
+CONFIG_PACKAGE_coreutils-timeout=y
+CONFIG_PACKAGE_cpufreq=y
+# CONFIG_PACKAGE_dns2tcp is not set
+# CONFIG_PACKAGE_etherwake is not set
+CONFIG_PACKAGE_gawk=y
+# CONFIG_PACKAGE_ipt2socks is not set
+# CONFIG_PACKAGE_jq is not set
+# CONFIG_PACKAGE_kmod-fs-exfat is not set
+# CONFIG_PACKAGE_kmod-fs-ext4 is not set
+# CONFIG_PACKAGE_kmod-fs-ntfs3 is not set
+# CONFIG_PACKAGE_kmod-fs-vfat is not set
+# CONFIG_PACKAGE_kmod-ipt-offload is not set
+CONFIG_PACKAGE_kmod-netlink-diag=y
+# CONFIG_PACKAGE_kmod-nf-conntrack-netlink is not set
+# CONFIG_PACKAGE_kmod-nls-base is not set
+# CONFIG_PACKAGE_kmod-nls-cp437 is not set
+# CONFIG_PACKAGE_kmod-nls-iso8859-1 is not set
+# CONFIG_PACKAGE_kmod-nls-utf8 is not set
+# CONFIG_PACKAGE_kmod-scsi-core is not set
+CONFIG_PACKAGE_kmod-shortcut-fe=y
+CONFIG_PACKAGE_kmod-shortcut-fe-cm=y
+# CONFIG_PACKAGE_kmod-usb-core is not set
+# CONFIG_PACKAGE_kmod-usb-storage is not set
+# CONFIG_PACKAGE_kmod-usb-storage-extras is not set
+# CONFIG_PACKAGE_kmod-usb-storage-uas is not set
+CONFIG_PACKAGE_libcap=y
+# CONFIG_PACKAGE_libcap-ng is not set
+# CONFIG_PACKAGE_libev is not set
+# CONFIG_PACKAGE_libpcap is not set
+# CONFIG_PACKAGE_libpcre2 is not set
+CONFIG_PACKAGE_libreadline=y
+# CONFIG_PACKAGE_libsodium is not set
+# CONFIG_PACKAGE_libstdcpp is not set
+# CONFIG_PACKAGE_libuci-lua is not set
+# CONFIG_PACKAGE_libudns is not set
+CONFIG_PACKAGE_libuv=y
+CONFIG_PACKAGE_libwebsockets-full=y
+# CONFIG_PACKAGE_libyaml is not set
+# CONFIG_PACKAGE_lua-neturl is not set
+CONFIG_PACKAGE_luci-app-argon-config=y
+# CONFIG_PACKAGE_luci-app-arpbind is not set
+# CONFIG_PACKAGE_luci-app-autoreboot is not set
+CONFIG_PACKAGE_luci-app-banip=y
+CONFIG_PACKAGE_luci-app-cpufreq=y
+# CONFIG_PACKAGE_luci-app-ddns is not set
+# CONFIG_PACKAGE_luci-app-filetransfer is not set
+CONFIG_PACKAGE_luci-app-homeproxy=y
+CONFIG_PACKAGE_luci-app-netdata=y
+# CONFIG_PACKAGE_luci-app-nlbwmon is not set
+# CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-ng is not set
+# CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-webui is not set
+# CONFIG_PACKAGE_luci-app-ssr-plus is not set
+# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ChinaDNS_NG is not set
+# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Http_Proxy is not set
+# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Mihomo is not set
+# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Libev_Client is not set
+CONFIG_PACKAGE_luci-app-ttyd=y
+# CONFIG_PACKAGE_luci-app-upnp is not set
+# CONFIG_PACKAGE_luci-app-vlmcsd is not set
+# CONFIG_PACKAGE_luci-app-vsftpd is not set
+# CONFIG_PACKAGE_luci-app-wol is not set
+CONFIG_PACKAGE_luci-i18n-argon-config-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-banip-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-cpufreq-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-homeproxy-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-netdata-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-ttyd-zh-cn=y
+# CONFIG_PACKAGE_luci-lib-chartjs is not set
+CONFIG_PACKAGE_luci-theme-argon=y
+# CONFIG_PACKAGE_lyaml is not set
+# CONFIG_PACKAGE_microsocks is not set
+# CONFIG_PACKAGE_mihomo is not set
+# CONFIG_PACKAGE_miniupnpd-nftables is not set
+CONFIG_PACKAGE_netdata=y
+# CONFIG_PACKAGE_nlbwmon is not set
+# CONFIG_PACKAGE_nping is not set
+# CONFIG_PACKAGE_resolveip is not set
+CONFIG_PACKAGE_rpcd-mod-rpcsys=y
+# CONFIG_PACKAGE_shadowsocksr-libev-ssr-local is not set
+# CONFIG_PACKAGE_shadowsocksr-libev-ssr-redir is not set
+CONFIG_PACKAGE_sing-box=y
+CONFIG_PACKAGE_ttyd=y
+CONFIG_PACKAGE_ucode-mod-digest=y
+# CONFIG_PACKAGE_v2ray-geoip is not set
+# CONFIG_PACKAGE_vlmcsd is not set
+# CONFIG_PACKAGE_vsftpd is not set
+CONFIG_SING_BOX_BUILD_ACME=y
+CONFIG_SING_BOX_BUILD_CLASH_API=y
+CONFIG_SING_BOX_BUILD_GVISOR=y
+CONFIG_SING_BOX_BUILD_QUIC=y
+CONFIG_SING_BOX_BUILD_TAILSCALE=y
+CONFIG_SING_BOX_BUILD_UTLS=y
+CONFIG_SING_BOX_BUILD_WIREGUARD=y
+# CONFIG_TARGET_ROOTFS_EXT4FS is not set
+CONFIG_TARGET_ROOTFS_PARTSIZE=368
